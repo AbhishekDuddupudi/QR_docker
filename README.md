@@ -5,7 +5,7 @@ This project uses Docker and Python to generate a QR code PNG file that contains
 
 ## Generated QR Code
 
-![My QR Code!](qr_20250401_204249.png)
+![My QR Code!](qr_codes/qr_20250401_204249.png)
 
 ## Container Log
 
