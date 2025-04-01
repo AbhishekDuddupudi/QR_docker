@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  qr_code_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - QR_CODE_DIR=/app/qr_codes
+      - FILL_COLOR=red
+      - BACK_COLOR=white
+    volumes:
+      - ./qr_codes:/app/qr_codes  # Maps a local directory to the container for output
+    command: ["python", "main.py", "--url", "https://github.com/AbhishekDuddupudi"]
