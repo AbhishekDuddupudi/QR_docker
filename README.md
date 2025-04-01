@@ -5,11 +5,11 @@ This project uses Docker and Python to generate a QR code PNG file that contains
 
 ## Generated QR Code
 
-![My QR Code](qr_20250401_204249.png)
+![My QR Code!](qr_20250401_204249.png)
 
 ## Container Log
 
 Below is a screenshot of the container logs showing successful QR code generation:
 
-![QR Code Generation Log]
-![alt text](<Screenshot 2025-04-01 at 4.47.25 PM-1.png>)
+
+![!](https://github.com/user-attachments/assets/07b81847-b3bf-4863-af49-efa92d5a98b4)
